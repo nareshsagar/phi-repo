@@ -3553,3 +3553,9 @@ coldPath   = $SPLUNK_DB/npe_index/cold
 thawedPath = $SPLUNK_DB/npe_index/thaweddb
 frozenTimePeriodInSecs = 42343
     
+[chinnu_npe_prod]
+homePath   = $SPLUNK_DB/chinnu_npe_prod/db
+coldPath   = $SPLUNK_DB/chinnu_npe_prod/cold
+thawedPath = $SPLUNK_DB/chinnu_npe_prod/thaweddb
+frozenTimePeriodInSecs = 8790000
+    
