@@ -3565,3 +3565,9 @@ coldPath   = $SPLUNK_DB/ALL_IDX/cold
 thawedPath = $SPLUNK_DB/ALL_IDX/thaweddb
 frozenTimePeriodInSecs = rentention
     
+[ALL_IDX]
+homePath   = $SPLUNK_DB/ALL_IDX/db
+coldPath   = $SPLUNK_DB/ALL_IDX/cold
+thawedPath = $SPLUNK_DB/ALL_IDX/thaweddb
+frozenTimePeriodInSecs = 3456
+    
